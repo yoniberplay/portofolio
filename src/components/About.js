@@ -11,8 +11,7 @@ export default function About() {
             REST APIs and apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-           Software Developer jr, using ASP.NET for the backend and react js for the front-end.
-           Always using the good practices of Clean Code, SOLID Principles and Onion Architecture.
+           Software Developer, using ASP.NET for the backend and react js for the front-end trying to apply the best practices using clean code and solid Principles for development.
           </p>
           <div className="flex justify-center">
             <a
@@ -27,13 +26,49 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
             alt="hero"
             src={process.env.PUBLIC_URL  + "/coding.svg"}
           />
-        </div>
+        </div> */}
+        <div class="grid grid-cols-2 gap-2">
+        <img
+            className="object-cover object-center rounded"
+            alt="hero"
+            src={process.env.PUBLIC_URL  + "/images/tecnologys/javascript.svg"}
+          />
+          <img
+            className="object-cover object-center rounded"
+            alt="hero"
+            src={process.env.PUBLIC_URL  + "/images/tecnologys/react.svg"}
+          />
+       
+          <img
+            className="object-cover object-center rounded"
+            alt="hero"
+            src={process.env.PUBLIC_URL  + "/images/tecnologys/net.svg"}
+          />
+          
+          <img
+            className="object-cover object-center rounded hover:text-green-700"
+            alt="hero"
+            src={process.env.PUBLIC_URL  + "/images/tecnologys/sqlserver.svg"}
+          />
+           
+           <img
+            className="object-cover object-center rounded"
+            alt="hero"
+            src={process.env.PUBLIC_URL  + "/images/tecnologys/java.svg"}
+          />
+          <img
+            className="object-cover object-center rounded hover:text-green-700"
+            alt="hero"
+            src={process.env.PUBLIC_URL  + "/images/tecnologys/spring.svg"}
+          />
+          
+</div>
       </div>
     </section>
   );
