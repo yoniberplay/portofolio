@@ -42,13 +42,16 @@ function App() {
 
   return (
     <main className={`${colorTheme.bg} ${colorTheme.text} body-font`}>
-      <Navbar ChageTheme={ChageTheme} colorTheme={colorTheme} theme={theme} />
+      <Navbar ChageTheme={ChageTheme} colorTheme={colorTheme} />
       <About colorTheme={colorTheme} />
       <Projects colorTheme={colorTheme}/>
       <Skills colorTheme={colorTheme}/>
       <Contact colorTheme={colorTheme}/>
+     
     </main>
   );
 }
 
+
 export default App;
+

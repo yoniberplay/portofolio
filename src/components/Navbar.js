@@ -1,5 +1,6 @@
 import { ArrowRightIcon,SunIcon,MoonIcon } from "@heroicons/react/solid";
 import React from "react";
+import cv from '../documents/cvyoniber.pdf';
 
 export default function Navbar(props) {
   return (
@@ -40,14 +41,7 @@ export default function Navbar(props) {
           >
             Contact
           </a>
-          {/* <button
-            className={`mr-5 ${props.colorTheme.cond ? 'hover:text-white' : 'hover:text-black'}`}
-            onClick={props.ChageTheme}
-          >
-            
-            Change
-          </button> */}
-
+          
           <label className="relative inline-flex items-center cursor-pointer">
             <input
               type="checkbox"
@@ -63,9 +57,11 @@ export default function Navbar(props) {
           </label>
         </nav>
         <a
-          href="mailto:yoniber.encarnacion@gmail.com"
+          // href="mailto:yoniber.encarnacion@gmail.com"
+          href={cv} target={'_blank'}
+          rel="noreferrer"
           className={`inline-flex  items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${
-            props.theme ? "hover:bg-gray-700" : "hover:bg-gray-300"
+            props.colorTheme.cond ? "hover:bg-gray-700" : "hover:bg-gray-300"
           }`}
         >
           Hire Me
@@ -73,5 +69,6 @@ export default function Navbar(props) {
         </a>
       </div>
     </header>
+    
   );
 }

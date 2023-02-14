@@ -5,10 +5,10 @@ const ProjectList = ( props ) => {
    
     return (
         <React.Fragment>
-        <h1 className={`sm:text-3xl text-3xl font-bold title-font m-4  text-green-400`}>
+        <h1 className={`sm:text-3xl text-3xl font-bold title-font m-4  text-green-400 `}>
             {props.texto}
           </h1>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap  -m-4 ">
           {props.Projects.map((project) => (
             <a
             target="_blank" 
@@ -16,7 +16,7 @@ const ProjectList = ( props ) => {
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
+              <div className="flex relative ">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center "
