@@ -60,7 +60,14 @@ export const webProjects = [
       "Manage daily tasks, add, delete or mark as completed your tasks.",
     image: "/images/web/project-7.png",
     link: "https://yoniberplay.github.io/Task-app/",
-  },
+  },{
+    title: "Library",
+    subtitle: "HTML / CSS / React Js / Webpack / Firebase / Hooks",
+    description:
+      "Basic interface for a library",
+    image: "/images/web/project-10.png",
+    link: "https://yoniberplay.github.io/books-app/",
+  }
 ];
 
 export const Desktop = [
