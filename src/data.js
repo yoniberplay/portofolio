@@ -141,10 +141,12 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "HTML / CSS / Js / React",
   "C# / ASP.NET MVC / REST APIs",
   "Identity / Razor / Entity framework",
-  "Java EE / Spring / Maven / Hibernate",
+  "JWT / Azure / Firebase",
+  "Node / Express / Sequelize",
+  "HTML / CSS / JS / React / Vuej",
   "SQL Server / MySQL",
-  "Material UI / Bootstrap / Tailwind",
+  "Java EE / Spring / Maven / Hibernate",
+  "Material UI / Bootstrap / Tailwind / Vuetify",
 ];
