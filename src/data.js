@@ -1,12 +1,12 @@
 export const webProjects = [
   {
     title: "the-food-order-app",
-    subtitle:"HTML / CSS / React Js / Webpack / Hooks",
-    description:
-      "shopping cart to add and order food using the react js hooks",
+    subtitle: "HTML / CSS / React Js / Webpack / Hooks",
+    description: "shopping cart to add and order food using the react js hooks",
     image: "/images/web/project-5.png",
     link: "https://yoniberplay.github.io/the-food-order-app/",
-  },{
+  },
+  {
     title: "SDQRealEstate",
     subtitle: "ASP.NET MVC / SQL Server / Rest APIs / Entity / Identity / JWT",
     description:
@@ -17,15 +17,14 @@ export const webProjects = [
   {
     title: "POKEDEX",
     subtitle: "ASP.NET MVC / SQL Server / CSS",
-    description:
-      "Pokedex app, using asp net core mvc 6 and Sql server.",
+    description: "Pokedex app, using asp net core mvc 6 and Sql server.",
     image: "/images/web/project-2.png",
     link: "https://github.com/yoniberplay/POKEDEX",
-  }, {
+  },
+  {
     title: "Expenses",
     subtitle: "HTML / CSS / React Js / Webpack",
-    description:
-      "add expenses and see the statistics for annual expenses",
+    description: "add expenses and see the statistics for annual expenses",
     image: "/images/web/project-9.png",
     link: "https://yoniberplay.github.io/aplicacion-react/",
   },
@@ -39,7 +38,7 @@ export const webProjects = [
   },
   {
     title: "E-Market",
-    subtitle:  "ASP.NET MVC/ SQL Server / Razor ",
+    subtitle: "ASP.NET MVC/ SQL Server / Razor ",
     description:
       "Register and log in to the web app to buy and sell items online.",
     image: "/images/web/project-4.png",
@@ -60,14 +59,14 @@ export const webProjects = [
       "Manage daily tasks, add, delete or mark as completed your tasks.",
     image: "/images/web/project-7.png",
     link: "https://yoniberplay.github.io/Task-app/",
-  },{
+  },
+  {
     title: "Library",
     subtitle: "HTML / CSS / React Js / Webpack / Firebase / Hooks",
-    description:
-      "Basic interface for a library",
+    description: "Basic interface for a library",
     image: "/images/web/project-10.png",
     link: "https://yoniberplay.github.io/books-app/",
-  }
+  },
 ];
 
 export const Desktop = [
@@ -78,22 +77,23 @@ export const Desktop = [
       "Solution to manage credit entities using 3 Tier Architecture and Client Server Architecture.",
     image: "/images/desktop/project-5.png",
     link: "https://github.com/yoniberplay/SellPoint-v1.0",
-  },{
+  },
+  {
     title: "Group Chat ",
     subtitle: "Java / JavaFX / Threads",
     description:
       "Group Chat to send and receive files in the same lan network. Multiple clients and one server",
     image: "/images/desktop/project-6.png",
     link: "https://github.com/yoniberplay/JavaFX-Group-Chat-Application-with-files-transfer",
-  },{
+  },
+  {
     title: "Integral Calculator",
     subtitle: "Python / Sympy / tkinter ",
     description:
       "Definite and indefinite integration, calculate the arc length or rectification of a curve and graph them.",
     image: "/images/desktop/project-7.png",
     link: "https://github.com/yoniberplay/Calculadora_Integrales",
-  }
-
+  },
 ];
 
 export const Uxui = [
@@ -104,24 +104,22 @@ export const Uxui = [
       "Media player design based on layout and user experience using C# Forms",
     image: "/images/ui-ux/project-7.png",
     link: "https://github.com/yoniberplay/Reproductor",
-  },{
+  },
+  {
     title: "Browser",
     subtitle: "Design UX/UI Browser",
-    description:
-      "Web browser based design and user experience using C# Forms",
+    description: "Web browser based design and user experience using C# Forms",
     image: "/images/ui-ux/project-8.png",
     link: "https://github.com/yoniberplay/Yonib_Browser",
-  },{
+  },
+  {
     title: "Text editor",
     subtitle: "Design UX/UI Text editor",
-    description:
-      "Text editor based design and user experience using C# Forms",
+    description: "Text editor based design and user experience using C# Forms",
     image: "/images/ui-ux/project-9.png",
     link: "https://github.com/yoniberplay/Editor_Texto",
   },
-  
 ];
-  
 
 export const testimonials = [
   {
@@ -141,12 +139,12 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "C# / ASP.NET MVC / REST APIs",
+  "C# /.Net / .Net Framework / SOAP / REST ",
   "Identity / Razor / Entity framework",
   "JWT / Azure / Firebase",
   "Node / Express / Sequelize",
   "HTML / CSS / JS / React / Vuej",
-  "SQL Server / MySQL",
+  "SQL Server / MySQL / Oracle ",
   "Java EE / Spring / Maven / Hibernate",
   "Material UI / Bootstrap / Tailwind / Vuetify",
 ];

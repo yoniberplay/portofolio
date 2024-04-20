@@ -13,21 +13,20 @@ function App() {
   const ChageTheme = () => {
     setcolorTheme(
       theme
-        ?  {
+        ? {
             bg: "bg-gray-100",
             text: "text-gray-500",
             title: "text-black",
             cond: false,
           }
-          :
-          {
+        : {
             bg: "bg-gray-900",
             text: "text-gray-400",
             title: "text-white",
             cond: true,
           }
     );
-   
+
     setTheme(theme ? false : true);
   };
 
@@ -44,14 +43,11 @@ function App() {
     <main className={`${colorTheme.bg} ${colorTheme.text} body-font`}>
       <Navbar ChageTheme={ChageTheme} colorTheme={colorTheme} />
       <About colorTheme={colorTheme} />
-      <Projects colorTheme={colorTheme}/>
-      <Skills colorTheme={colorTheme}/>
-      <Contact colorTheme={colorTheme}/>
-     
+      <Projects colorTheme={colorTheme} />
+      <Skills colorTheme={colorTheme} />
+      <Contact colorTheme={colorTheme} />
     </main>
   );
 }
 
-
 export default App;
-
