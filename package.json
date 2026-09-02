@@ -26,7 +26,6 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://yoniber.com",
   "browserslist": {
     "production": [
       ">0.2%",
